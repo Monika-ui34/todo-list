@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-section input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.input-section button {
+    padding: 10px 20px;
+    border: none;
+    background: #ff5945;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.input-section button:hover {
+    background: #e14a38;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+    background: #d3d3d3;
+}
+
+ul li span {
+    position: absolute;
+    right: 10px;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
